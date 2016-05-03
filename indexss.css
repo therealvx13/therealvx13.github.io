@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#strange1 {
+    padding: 16px;
+    margin: 60px;
+}
+
+#strange2 {
+    padding: 16px;
+    margin: 60px;
+}
+
+#wrapper {
+    background: #ccc;
+    margin: 0 auto; /* to make the div center align to the browser */
+    padding: 20px;
+    width: 95%; /* set it to anything */
+    text-align: center;
+}
+
+#wrapper ul {
+    background: #aaa;
+    padding: 10px;
+    display: inline-block;
+}
+#wrapper ul li {
+    color: #fff;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+#wrapper ul li:last-child {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 90%;
+    width: 99%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% /*whatever width you want*/;
+}
